@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltMusic - Home</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="mode" class="mode-toggle" aria-label="Light mode">
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand-row">
+        <a class="brand" href="index.html"><img src="images/Logo1.png" alt="" width="32" height="32"><div><span>alt</span>music</div></a>
+        <label class="toggle" for="mode" title="Switch light/dark mode" aria-label="Switch light/dark mode"><span class="sun-icon">☀</span><span class="moon-icon">☾</span></label>
+      </div>
+
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="library.html">Library</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="premium.html">Premium</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Vibe With AltMusic.</h1>
+          <p>Discover and enjoy alternative sounds, standout artists, and playlists for every mood.</p>
+          <a class="btn" href="library.html">Start listening</a>
+        </div>
+
+        <img src="images/ArtistCover.png" alt="Artist" class="hero-artist">
+      </section>
+
+      <section>
+        <div class="songs-heading">
+          <div>
+            <h2>New songs</h2>
+            <p class="section-note">Fresh tracks to get you started.</p>
+          </div>
+
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input type="search" placeholder="Search songs..." aria-label="Search songs">
+          </label>
+        </div>
+
+        <div class="songs">
+          <article class="song">
+            <div class="cover"><img src="images/Song1.jpg" alt="What You Heard cover"></div>
+            <h3>What You Heard</h3>
+            <p>Sonder</p>
+          </article>
+
+          <article class="song">
+            <div class="cover"><img src="images/Song2.jpg" alt="Always cover"></div>
+            <h3>Always</h3>
+            <p>Daniel Caesar</p>
+          </article>
+
+          <article class="song">
+            <div class="cover"><img src="images/Song3.jpg" alt="TMA cover"></div>
+            <h3>TMA</h3>
+            <p>groundZERO Records, Tyler, Primera, and ODP</p>
+          </article>
+
+          <article class="song">
+            <div class="cover"><img src="images/Song4.png" alt="The Cure cover"></div>
+            <h3>The Cure</h3>
+            <p>Olivia Rodrigo</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>What we do</h2>
+
+        <div class="cards">
+          <div class="card">
+            <div class="art">
+              <img src="images/Listen.png" alt="Listen to alternative music">
+            </div>
+            <h3>Listen</h3>
+            <p>Explore alternative music and enjoy a clean, simple listening experience built around the songs you love.</p>
+          </div>
+
+          <div class="card">
+            <div class="art">
+              <img src="images/Playlists" alt="Music playlists">
+            </div>
+            <h3>Playlists</h3>
+            <p>Find songs that fit your mood, from calm and mellow to loud and energetic.</p>
+          </div>
+
+          <div class="card">
+            <div class="art">
+              <img src="images/Artists.jpg" alt="Music artists">
+            </div>
+            <h3>Artists</h3>
+            <p>Discover the musicians and creative voices behind the tracks you love, and find new favorites along the way.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>&copy; 2026 altmusic. All rights reserved.</footer>
+    </main>
+  </div>
+</body>
+</html>
